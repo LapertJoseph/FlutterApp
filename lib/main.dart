@@ -7,7 +7,12 @@ class MyApp extends StatelessWidget {
   @override // good practice to override return type here
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('Hello!'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("My First App"),
+        ),
+        body: Text("This is my default text!"),
+      ),
     );
   }
 }
