@@ -12,7 +12,7 @@ class MyApp extends StatefulWidget {
   }
 }
 
-// en ajoutant le _ elle devient private
+// en ajoutant le _ la propriete de la classe devient private
 class _MyAppState extends State<MyApp> {
   var _questionIndex = 0;
 
