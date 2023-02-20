@@ -26,8 +26,18 @@ class _MyAppState extends State<MyApp> {
   @override // good practice to override return type here
   Widget build(BuildContext context) {
     var questions = [
-      'What\'s your favorite color?',
-      'What\'s your favorite animal?',
+      {
+        'questionText': 'What\'s your favorite color?',
+        'answers': ['Black', 'Red', 'Green', 'White'],
+      },
+      {
+        'questionText': 'What\'s your favorite animal?',
+        'answers': ['Rabbit', 'Snake', 'Elephant', 'Lion'],
+      },
+      {
+        'questionText': 'Who\'s your favorite instructor?',
+        'answers': ['Max', 'Enzo', 'M\hamed', 'Melvin'],
+      },
     ];
     return MaterialApp(
       home: Scaffold(
