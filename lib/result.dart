@@ -30,11 +30,13 @@ class Result extends StatelessWidget {
             style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
-          FloatingActionButton(
+          ElevatedButton(
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.green),
+              foregroundColor: MaterialStateProperty.all(Colors.red),
+            ),
             child: Text('Restart Quiz!'),
             onPressed: resetHandler,
-            backgroundColor: Colors.blue,
-            shape: Border.all(),
           ),
         ],
       ),
