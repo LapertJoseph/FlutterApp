@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Stateless widget for render answers
 class Answer extends StatelessWidget {
   final Function selectHandler;
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Stateless Widget for render UI
 class Question extends StatelessWidget {
   final String questionText;
 
